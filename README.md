@@ -19,9 +19,9 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 
 Users should be able to:
 
-- View the relevant dropdown menus on desktop and mobile when interacting with the navigation links
-- View the optimal layout for the content depending on their device's screen size
-- See hover states for all interactive elements on the page
+- View the relevant dropdown menus on desktop and mobile when interacting with the navigation links - status = (✔)
+- View the optimal layout for the content depending on their device's screen size - status = (✔)
+- See hover states for all interactive elements on the page - status = (✔)
 
 ### Screenshot
 
@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Watch it live](https://intro-section-with-dropdown-navigation-nine.vercel.app/)
+- Solution URL: [Compare design vs final version here](https://www.frontendmentor.io/solutions/responsive-htmlcssjs-intro-section-with-dropdown-navigation-boSPDjWJrE)
 
 ## My process
 
