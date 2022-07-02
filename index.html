@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/styles.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+
+</head>
+<body>
+
+  <nav>
+    <a class="nav__logo">
+      <img src="/images/logo.svg" alt="logo">
+    </a>
+    <div class="nav__items">
+
+      <div class="nav__item">
+        <button class="nav__button">Features <span class="arrow"><img src="/images/icon-arrow-down.svg" alt=""></span></button>
+        <div class="nav__item_content" id="features">
+          <a href="#"> <span class="nav__icon"><img src="/images/icon-todo.svg" alt=""></span> Todo List</a>
+          <a href="#"> <span class="nav__icon"><img src="/images/icon-calendar.svg" alt=""></span>  Calendar</a>
+          <a href="#"> <span class="nav__icon"><img src="/images/icon-reminders.svg" alt=""></span> Reminders</a>
+          <a href="#"> <span class="nav__icon"><img src="/images/icon-planning.svg" alt=""></span> Planning</a>
+        </div>
+      </div>
+      <div class="nav__item">
+        <button class="nav__button">Company <span class="arrow"><img src="/images/icon-arrow-down.svg" alt=""></span></button>
+        <div class="nav__item_content" id="company">
+          <a href="#">History</a>
+          <a href="#">Our Team</a>
+          <a href="#">Blog</a>
+        </div>
+      </div>
+      <div class="nav__item">
+        <a href="#">Careers</a>
+      </div>
+      <div class="nav__item">
+        <a href="#">About</a>
+      </div>
+      <div class="nav__buttons">
+        <button id="login__button">Login</button>
+        <button id="register__button">Register</button>
+      </div>
+
+    </div>
+  
+    <div class="hamburguer">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+
+  </nav>
+  
+
+  <div class="cover"></div>
+
+  <main>
+    <div class="hero__images">
+      <img class="hero mobile" src="/images/image-hero-mobile.png" alt="hero">
+      <img class="hero desktop" src="/images/image-hero-desktop.png" alt="hero">
+    </div>
+    <div class="content">
+      <h1 class="content__title"><span class="make">Make</span> remote work</h1>
+      <p class="content__text">Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.
+      </p>
+      <button class="content__button">
+        Learn more
+      </button>
+      <div class="clients">
+        <img class="clients__logo" src="/images/client-databiz.svg" alt="client-logo">
+        <img class="clients__logo" src="/images/client-audiophile.svg" alt="client-logo">
+        <img class="clients__logo" src="/images/client-meet.svg" alt="client-logo">
+        <img class="clients__logo" src="/images/client-maker.svg" alt="client-logo">
+      </div>
+    </div>
+  </main>
+
+
+  
+  
+
+  <script src="/js/app.js"></script>
+
+</body>
+</html>
